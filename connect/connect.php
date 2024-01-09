@@ -1,15 +1,30 @@
 <?php
-    $host = "localhost",
-    $user = "gp2617",
-    $pw = "tjfmgl9513!",
-    $db = "gp2617",
+    // $host = "localhost",
+    // $user = "gp2617",
+    // $pw = "tjfmgl9513!",
+    // $db = "gp2617",
+    // $connect = new mysqli($host, $user, $pw, $db);
+    // $connect -> set_charset("utf-8");
+
+    // if(mysqli_connect_errno()){
+    //     echo "database Connect false";
+    // } else {
+    //     // echo "database Connect True";
+    // }
+?>
+
+<?php
+    $host = "localhost";
+    $user = "gp2617";
+    $pw = "tjfmgl9513!";
+    $db = "gp2617";
     $connect = new mysqli($host, $user, $pw, $db);
-    $connect -> set_charset("utf-8");
+    $connect->set_charset("utf-8");
 
     if(mysqli_connect_errno()){
-        echo "database Connect false";
+        echo "Database Connect false";
     } else {
-        // echo "database Connect True";
+        // echo "Database Connect True";
     }
 ?>
 
